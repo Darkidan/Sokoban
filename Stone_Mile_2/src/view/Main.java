@@ -35,6 +35,7 @@ public class Main extends Application {
 			init(view);
 			primaryStage.setResizable(false);
 			primaryStage.show();
+			System.out.println("TEST");
 			primaryStage.setOnCloseRequest(event -> { 
 				event.consume();
 				view.exitFile(); });
